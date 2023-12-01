@@ -1,0 +1,13 @@
+train: /home/fahim/Desktop/DIP_Research_New_Dataset/dataset/train/images/
+val: /home/fahim/Desktop/DIP_Research_New_Dataset/dataset/valid/images/
+test: /home/fahim/Desktop/DIP_Research_New_Dataset/dataset/test/images/
+
+nc: 1
+names: ['License_Plate']
+
+roboflow:
+  workspace: augmented-startups
+  project: vehicle-registration-plates-trudk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/augmented-startups/vehicle-registration-plates-trudk/dataset/1
