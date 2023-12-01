@@ -40,9 +40,9 @@ A machine learning model that detects license plates/registration plate numbers 
 
 Source: [Roboflow](https://universe.roboflow.com/augmented-startups/vehicle-registration-plates-trudk/dataset/1?ref=roboflow2huggingface)
 
-Categories: YOLOv8
-Classes: 1
-Class Names: 'License_Plate'
+Categories: YOLOv8 <br>
+Classes: 1 <br>
+Class Names: 'License_Plate' <br>
 
 ## Dataset Splot
 
