@@ -35,7 +35,6 @@ A machine learning model that detects license plates/registration plate numbers 
 | False Negatives (FN)         | 46      |
 | Accuracy                     | 0.90020 |
 
-
 ## Used Dataset
 
 Source: [Roboflow](https://universe.roboflow.com/augmented-startups/vehicle-registration-plates-trudk/dataset/1?ref=roboflow2huggingface)
@@ -44,7 +43,7 @@ Categories: YOLOv8 <br>
 Classes: 1 <br>
 Class Names: 'License_Plate' <br>
 
-## Dataset Splot
+## Dataset Split
 
 - Train set: 80% (6176 images)
 - Validation set: 20% (1765 images)
