@@ -1,6 +1,8 @@
-# encrypted-image-for-vehicles
+# Deep Learning Model For Encrypting Images For Vehicles' Numberplates
 
-A machine learning model that detects license plates/registration plate numbers in images, and then encrypts them for privacy purposes.
+A deep learning model that detects license plates/registration plate numbers in images, and then encrypts them for privacy purposes.
+
+<!-- Use `jupyter lab --allow-root` in terminal. -->
 
 ## Short Demonstration
 
@@ -8,32 +10,38 @@ A machine learning model that detects license plates/registration plate numbers 
 
 <br>
 
-![Initial image](./external_images/hyundai-eon-busted.jpg)
+![Initial image](./manually_test/fr61z22ysw5z.jpg)
 
 ### Final image:
 
 <br>
 
-![Final image](./encrypted_license_plate_image_new_model.jpg)
+![Final image](./encrypted.jpg)
 
 ### Image Bouding Box
 
 <br>
 
-![Image Bouding Box](./runs/detect/train2/hyundai-eon-busted.jpg)
+![Image Bouding Box](./runs/detect/train22/fr61z22ysw5z.jpg)
+
+
+## Complete Jupyter Notebook
+
+### 🖱️ [Click Here](./Vehicle_Image_Encryption_Research.ipynb)
+
 
 ## Current Results
 
-| Metric                       | Result  |
-| ---------------------------- | ------- |
-| Number of correct detections | 856     |
-| Precision                    | 0.94066 |
-| Recall                       | 0.94900 |
-| F1 Score                     | 0.94481 |
-| True Positives (TP)          | 856     |
-| False Positives (FP)         | 54      |
-| False Negatives (FN)         | 46      |
-| Accuracy                     | 0.90020 |
+| Metric                       | Result |
+| ---------------------------- | ------ |
+| Number of correct detections | 896    |
+| Precision                    | 0.98   |
+| Recall                       | 0.99   |
+| F1 Score                     | 0.99   |
+| True Positives (TP)          | 896    |
+| False Positives (FP)         | 15     |
+| False Negatives (FN)         | 6      |
+| Accuracy                     | 0.98   |
 
 ## Used Dataset
 
@@ -52,5 +60,8 @@ Class Names: 'License_Plate' <br>
 ## Dataset Preprocessing
 
 - Auto-Orient: Applied
+- Resizing: Applied (460x460)
+- Zooming
+- Cropping
 
 #### The dataset is also available in the `dataset` folder.
