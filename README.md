@@ -1,10 +1,12 @@
-# Deep Learning Model For Encrypting Images For Vehicles' Numberplates
+# Secured Encryption Mechanism On Vehicles’ Numberplates
 
 A deep learning model that detects license plates/registration plate numbers in images, and then encrypts them for privacy purposes.
 
 <!-- Use `jupyter lab --allow-root` in terminal. -->
 
 ## Short Demonstration
+
+Our research combines YOLOv8 for precise car number plate detection with a chaotic-based logistic map encryption method. YOLOv8 ensures accurate identification of number plates in real-time, while the chaotic encryption provides robust security. The integration of these technologies offers a streamlined and secure solution for handling car number plate data, applicable in diverse domains like transportation and surveillance.
 
 ### Initial image:
 
@@ -42,6 +44,17 @@ A deep learning model that detects license plates/registration plate numbers in 
 | False Positives (FP)         | 15     |
 | False Negatives (FN)         | 6      |
 | Accuracy                     | 0.98   |
+
+## Configuration Of The Local Machine
+
+|  **Component Category**  |          **Specific model**           |
+| :----------------------: | :-----------------------------------: |
+|           CPU            |    Ryzen 5 3500X 6 Core, 6 Threads    |
+|           RAM            |          24GB DDR4 3200 BUS           |
+|           GPU            |   Nvidia GeForce RTX 3050 8GB GDDR6   |
+| Compute Capability (GPU) |                  8.6                  |
+|        CUDA Cores        |                 2560                  |
+|           SSD            | Samsung 980 1TB PCIe 3.0 M.2 NVMe SSD |
 
 ## Used Dataset
 
