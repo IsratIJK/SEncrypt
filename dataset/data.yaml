@@ -1,6 +1,6 @@
-train: /home/fahim/Desktop/encrypted-image-for-vehicles/dataset/train/images/
-val: /home/fahim/Desktop/encrypted-image-for-vehicles/dataset/valid/images/
-test: /home/fahim/Desktop/encrypted-image-for-vehicles/dataset/test/images/
+train: /home/fahim/encrypted-image-for-vehicles/dataset/train/images/
+val: /home/fahim/encrypted-image-for-vehicles/dataset/valid/images/
+test: /home/fahim/encrypted-image-for-vehicles/dataset/test/images/
 
 nc: 1
 names: ['License_Plate']
