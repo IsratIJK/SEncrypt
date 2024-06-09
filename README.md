@@ -8,6 +8,25 @@ A deep learning model that detects license plates/registration plate numbers in 
 
 Our research combines YOLOv8 for precise car number plate detection with a chaotic-based logistic map encryption method. YOLOv8 ensures accurate identification of number plates in real-time, while the chaotic encryption provides robust security. The integration of these technologies offers a streamlined and secure solution for handling car number plate data, applicable in diverse domains like transportation and surveillance.
 
+## Citation
+
+Please add the following citation (BibTeX) to your research paper if you use our model/pipeline.
+
+```
+@inproceedings{khan2024vehicle,
+  title={Vehicle Number Plate Detection and Encryption in Digital Images Using YOLOv8 and Chaotic-Based Encryption Scheme},
+  author={Khan, Israt Jahan and Amin, Md Fahim Bin and Sabbir, Mahady Hasan and Nejhum, Durba Morshaline and Nanzil, Abu Hasib Muhammad and Rahman, Raiyan},
+  booktitle={2024 6th International Conference on Electrical Engineering and Information \& Communication Technology (ICEEICT)},
+  pages={717--722},
+  year={2024},
+  organization={IEEE}
+}
+```
+
+## Conference Paper
+
+You can access our research paper directly from [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10534375/).
+
 ### Initial image:
 
 <br>
