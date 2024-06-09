@@ -2,11 +2,9 @@
 
 A deep learning model that detects license plates/registration plate numbers in images, and then encrypts them for privacy purposes.
 
-<!-- Use `jupyter lab --allow-root` in terminal. -->
+## Abstract
 
-## Short Demonstration
-
-Our research combines YOLOv8 for precise car number plate detection with a chaotic-based logistic map encryption method. YOLOv8 ensures accurate identification of number plates in real-time, while the chaotic encryption provides robust security. The integration of these technologies offers a streamlined and secure solution for handling car number plate data, applicable in diverse domains like transportation and surveillance.
+Information security has become crucial nowadays as it has ensured individual privacy and prevented unauthorized access. Securing data and information has the capability to establish a secure environment and has ensured trust by keeping them confidential and protected in diverse situations. The license plate or number plate information has been considered sensitive data as it contains unique identifiers for individuals' vehicles. Ensuring the security of this data is important to prevent unauthorized access, which could result in privacy violations and potential safety risks for vehicle owners. Our research has introduced an innovative security system for vehicle number plate privacy, featuring a powerful combination of a deep learning model and robust encryption. This system has ensured the secure transmission of information by adding an extra layer of protection to number plate data. Our proposed system has integrated the You Only Look Once version 8 (YOLOv8) for precise car number plate detection and utilized the robust security features of the Chaotic-based Logistic Map encryption process. This powerful combination has not only enhanced the accuracy of car number plate detection but also established a robust framework for efficiently safeguarding sensitive data through the use of chaotic encryption methods. It is an efficient approach where object detection has been combined with secure transmission technologies. It is suitable for real-time applications and traffic surveillance, resolving privacy concerns and emphasizing data security.
 
 ## Citation
 
@@ -26,6 +24,10 @@ Please add the following citation (BibTeX) to your research paper if you use our
 ## Conference Paper
 
 You can access our research paper directly from [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10534375/).
+
+## Short Demonstration
+
+Our research combines YOLOv8 for precise car number plate detection with a chaotic-based logistic map encryption method. YOLOv8 ensures accurate identification of number plates in real-time, while the chaotic encryption provides robust security. The integration of these technologies offers a streamlined and secure solution for handling car number plate data, applicable in diverse domains like transportation and surveillance.
 
 ### Initial image:
 
