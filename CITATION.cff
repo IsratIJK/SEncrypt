@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this pipeline and model, please cite it as below."
+authors:
+- family-names: "Khan"
+  given-names: "Israt"
+  orcid: "https://orcid.org/0000-0003-2757-3776"
+- family-names: "Amin"
+  given-names: "Md. Fahim"
+  orcid: "https://orcid.org/0000-0001-7392-793X"
+title: "Vehicle Number Plate Detection and Encryption in Digital Images Using YOLOv8 and Chaotic-Based Encryption Scheme"
+version: 2.0.4
+doi: 10.1109/ICEEICT62016.2024.10534375
+date-released: 2014-05-23
+url: "https://github.com/IsratIJK/SEncrypt/"
+preferred-citation:
+  type: conference
+  authors:
+  - family-names: "Khan"
+    given-names: "Israt"
+    orcid: "https://orcid.org/0000-0003-2757-3776"
+  - family-names: "Amin"
+    given-names: "Md. Fahim"
+    orcid: "https://orcid.org/0000-0001-7392-793X"
+  doi: "10.1109/ICEEICT62016.2024.10534375"
+  title: "Vehicle Number Plate Detection and Encryption in Digital Images Using YOLOv8 and Chaotic-Based Encryption Scheme"
+  year: 2024
